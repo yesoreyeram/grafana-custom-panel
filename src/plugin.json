@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/v8.1.0/docs/sources/developers/plugins/plugin.schema.json",
+  "name": "Custom",
+  "id": "yesoreyeram-custom-panel",
+  "type": "panel",
+  "skipDataQuery": false,
+  "info": {
+    "description": "Custom panel for Grafana dashboards",
+    "author": {
+      "name": "Sriramajeyam Sugumaran",
+      "url": "https://github.com/yesoreyeram"
+    },
+    "keywords": ["Custom", "Custom Panel", "React", "Typewriter"],
+    "logos": {
+      "small": "img/custom.png",
+      "large": "img/custom.png"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/yesoreyeram/grafana-custom-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/yesoreyeram/grafana-custom-panel/blob/main/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=8.1.0",
+    "grafanaVersion": "8.1.0",
+    "plugins": []
+  }
+}
